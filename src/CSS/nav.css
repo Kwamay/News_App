@@ -16,15 +16,17 @@
     background-color: #fff;
     border: 1px solid #edebff;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
-    padding-right: 4rem;
-    margin: 5rem 5rem 2em;
     font-size: 20px;
+    padding-right: 2rem;
   }
   
   .nav-logo {
     color: rgb(6, 129, 190);
     padding-left: 3.7rem;
+  }
+
+  .nav-back {
+    color: rgb(6, 129, 190);
   }
   
   .nav-ul {
@@ -37,6 +39,6 @@
   .nav-link {
     text-decoration: none;
     color: rgb(75, 74, 74);
-    font-size: 14px;
+    font-size: 25px;
   }
   

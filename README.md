@@ -1,70 +1,182 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# News Webapp
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Run tests](#run-tests)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm start`
+# 📖 Countries of the world <a name="about-project"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**World News** is a React mobile web application that allows users to check a list of metrics (numeric values) retrieved from a selected API called News, where you can get information about news source and blog in the last 2 years via News API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The main use of News API is to search through every article published by over 80,000 news sources and blogs in the last 5 years. Think of us as Google News that you can interact with programmatically! News API is great as a data source for news tickers and other applications where you want to show your users live headlines. We track headlines in 7 categories across over 50 countries, and at over a hundred top publications and blogs, in near real time.
 
-### `npm test`
+This project was created as part of the Microverse Full-Stack Web Development Program, which is a 12-month program that teaches students the skills they need to become full-stack web developers. The program includes training on a variety of programming tools, such as React, JSX, CSS, and JavaScript.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The webapp has been deployed to Netlify and is now available for you to try. Click the link below to visit the live demo.
 
-### `npm run build`
+## 🛠 Built With <a name="built-with"></a>
+* React / Redux
+* JSX
+* CSS
+* Javascript ES6
+* Visual Studio Code
+* Jest
+* React Testing Library
+* ESLint
+* Stylelint
+* Webpack
+* Babel
+* External API (REST Countries)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- Features -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Key Features <a name="key-features"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The key features of this project include the following.
 
-### `npm run eject`
+- **Fetchs and displays data from API, which lists almost 200 source news.**
+- **Displays the estimated headlines of the news on the homepage, also directly from the API.**
+- **Displays headline news with description, title, author and date published**
+- **Uses a mobile web responsive layout format that looks good and are easy to use on mobile devices.**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- LIVE DEMO -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo]()
+- [Video Presentation](https://www.loom.com/share/03dde572f79041519a2f15be5b913f06?sid=36d18937-ac9b-451d-bc27-f567d3df258d) 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- GETTING STARTED -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Getting Started <a name="getting-started"></a>
+Get ready to read World news Webapp with these steps:
 
-### Code Splitting
+### Prerequisites <a name="prerequisites"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Ensure you have:
+ - A Web Browser such as Microsoft Edge or Google Chrome 🌐
+ - Git 🐙
+ - A code editor such as Visual Studio Code 👨‍💻
 
-### Analyzing the Bundle Size
+### Setup <a name="setup"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Use `git clone` to get your local copy of the project.
 
-### Making a Progressive Web App
+```bash
+git clone https://github.com/Kwamay/News_App.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Install <a name="install"></a>
 
-### Advanced Configuration
+ Run `npm install` to set up the required packages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm install
+```
 
-### Deployment
+### Run Tests <a name="run-tests"></a>
+To run tests run the following command in your terminal
+```
+ npm test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Currently, there are no test scripts available, but the libraries (React Testing Library and Jest) are set up.
 
-### `npm run build` fails to minify
+You can also check linter errors by running this commands:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npx stylelint "**/*.{css,scss}"
+```
+
+```
+npx eslint "**/*.{js,jsx}"
+```
+
+### Usage <a name="usage"></a>
+
+Launch the app with the following command
+
+```
+  npm start
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Kwamay**
+
+- GitHub: [@kwamay](https://github.com/kwamay)
+- Twitter: [@Kwamay3](https://twitter.com/Kwamay3)
+- LinkedIn: [Kwamay Adu](https://linkedin.com/in/кωαмαу-adu)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+-  **[Add my own api built with ruby on rails]**
+-  **[Show more info in country details]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Kwamay/News_App/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a star⭐️ or a thumbs up 👍 if you like this project! You can visit my GitHub profile for more of my projects.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Project supervised by [Microverse](https//www.microverse.org/)
+- [Creative Commons 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/)
+- [REST Countries API](https://restcountries.com/)
+- Original design theme is by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- [Link to the original design theme](https://behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29) by Nelson Sakwa
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
