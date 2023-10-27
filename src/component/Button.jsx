@@ -14,6 +14,7 @@ const Button = (props) => {
   return (
     <button
       id={id}
+      data-testid="action-button"
       type="button"
       className="action-button"
       onClick={handleDetails}
