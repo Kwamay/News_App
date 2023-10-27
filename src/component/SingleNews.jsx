@@ -7,7 +7,6 @@ const SingleNews = (props) => {
     id, title, author, image,
   } = props;
   return (
-
     <div className="subnews-content">
       <div className="img-container">
         <img className="subnews-img" alt="" src={image} />

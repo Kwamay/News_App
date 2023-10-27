@@ -16,8 +16,7 @@ const Home = () => {
       <Heading />
       <div className="news-container">
         <div className="subnews-container">
-          {
-          news.map((N) => (
+          {news.map((N) => (
             <SingleNews
               id={N.source.name}
               key={Math.random()}
@@ -25,8 +24,7 @@ const Home = () => {
               author={N.author}
               image={N.urlToImage}
             />
-          ))
-        }
+          ))}
         </div>
       </div>
       <h3 className="footer">A Microverse Capstone Project by Kwamay</h3>
