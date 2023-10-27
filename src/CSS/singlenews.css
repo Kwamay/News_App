@@ -16,7 +16,6 @@
   width: 100%;
   background-color: rgb(6, 129, 190);
   height: 40vh;
-
 }
 
 .homepage-img {
@@ -28,12 +27,12 @@
 }
 
 .homepage-content {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    align-items: center;
-    justify-content: center;
-    padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
 }
 
 .homepage-text {
@@ -44,34 +43,35 @@
 }
 
 .headlines {
- font: italic;
- align-self: flex-start;
- font-size: 20pt;
- font-weight: 100;
+  font-style: italic;
+  align-self: flex-start;
+  font-size: 20pt;
+  font-weight: 100;
 }
 
 .search-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 10vh;
-    background-color: rgb(187, 20, 20);
-    font-size: 20px;
-    color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(187, 20, 20);
+  font-size: 20px;
+  color: #fff;
 }
 
 .search-news {
-    background-color: transparent;
-    border: none;
-    width: 30%;
-    color: #fff;
-    padding: 5px;
-    margin-right: 6px;
+  background-color: transparent;
+  border: none;
+  width: 30%;
+  color: #fff;
+  padding: 5px;
+  margin-right: 6px;
 }
+
 .search-news::placeholder {
-    color: #fff;
-    font-size: 15px;
+  color: #fff;
+  font-size: 15px;
 }
 
 .search-btn {
@@ -102,13 +102,12 @@
 .img-container {
   position: relative;
   width: 100%;
-  
 }
 
 .subnews-img {
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .button-new-container {
@@ -124,7 +123,6 @@
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Center the text perfectly */
   background-color: rgba(0, 0, 0, 0.6); /* Background color with opacity */
-  
 }
 
 .action-button {
@@ -138,11 +136,11 @@
 }
 
 .news-content {
-    align-self: flex-end;
-    font-size: 20px;
-    font-weight: 700;
-    width: 70%;
-    text-align: right;
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 700;
+  width: 70%;
+  text-align: right;
 }
 
 .news-author {
@@ -168,7 +166,7 @@
 
   .subnews-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .homepage-img {
