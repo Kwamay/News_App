@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { TfiSearch } from 'react-icons/tfi';
-import { getNews } from '../redux/news';
+import { getNews } from '../redux/newsSlice';
 import '../CSS/singlenews.css';
 
 const Heading = () => {
