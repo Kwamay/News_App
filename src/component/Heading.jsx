@@ -16,7 +16,7 @@ const Heading = () => {
   };
 
   // Function to check if a user has searched for something
-  const hasSearched = () => searchQuery.trim() !== '';// Check if searchQuery is not empty or just whitespace
+  const hasSearched = () => searchQuery.trim() !== ''; // Check if searchQuery is not empty or just whitespace
 
   return (
     <div>
