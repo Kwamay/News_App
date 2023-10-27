@@ -62,8 +62,8 @@ The key features of this project include the following.
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo]()
-- [Video Presentation](https://www.loom.com/share/d37f09c14d8940c294ab8574ddd066dc?sid=fcb9f400-d4da-4dd2-b64d-87a22531acd4) 
+- [Live Demo](https://worldnews-6qjn.onrender.com/)
+- [Video Presentation](https://www.loom.com/share/d37f09c14d8940c294ab8574ddd066dc?sid=f57047d5-0271-455e-89fc-fefbc219a486) 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
