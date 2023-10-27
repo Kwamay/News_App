@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getNews } from '../redux/news';
+import { getNews } from '../redux/newsSlice';
 import SingleNews from './SingleNews';
 import Heading from './Heading';
 
@@ -29,7 +29,6 @@ const Home = () => {
         }
         </div>
       </div>
-
       <h3 className="footer">A Microverse Capstone Project by Kwamay</h3>
     </div>
   );
