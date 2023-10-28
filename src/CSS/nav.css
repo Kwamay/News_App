@@ -28,6 +28,8 @@ body {
 
 .nav-back {
   color: rgb(6, 129, 190);
+  padding-left: 2rem;
+  font-size: 20pt;
 }
 
 .nav-ul {
